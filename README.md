@@ -12,8 +12,8 @@
 
 ## Prerequisites
 - Node js should be available. You can Install `node.js` from [here](https://nodejs.org/en/download/)  . 
-- verify node and npm is available on mac terminal by running `node -v` and `npm -v` . If not , you can load by this command
-`export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+- Verify node and npm is available on mac terminal by running `node -v` and `npm -v` . If not , you can load by this command
+`export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"                        
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"`
 Read more about downloading and installing node and npm  [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - Java jdk should be installed. You can install java jdk from [here](https://www.oracle.com/java/technologies/javase-jdk14-downloads.html)  . You can check jdk install by `java -version` . Jdk is required to run selenium server
@@ -27,4 +27,4 @@ Read more about downloading and installing node and npm  [here](https://docs.npm
 - Command to run project is `./node_modules/.bin/wdio wdio.conf.js`
 
 ## Result
- When everything is run and setup correctly , all steps will pass and on terminal you will see something similar as shown in  `all-passed-screenshot` file in repository
+ When everything is run and setup correctly , all steps will pass and on terminal you will see something similar as shown in  `all-passed-screenshot` file in repository . A demo video of execution can be downloaded from [here](https://drive.google.com/open?id=16_9pPzRwu6CeYf8Q9eLWkwMEH_iYFGeM)
