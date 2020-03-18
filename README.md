@@ -15,13 +15,13 @@
 - Verify node and npm is available on mac terminal by running `node -v` and `npm -v` . If not , you can load by this command
 `export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"                        
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"`
-Read more about downloading and installing node and npm  [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+You can read more about downloading and installing node and npm  [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - Java jdk should be installed. You can install java jdk from [here](https://www.oracle.com/java/technologies/javase-jdk14-downloads.html)  . You can check jdk install by `java -version` . Jdk is required to run selenium server
 - Install chrome browser
 
 
 ## Running project
-- clone/download  this repository
+- Clone/download  this repository
 -  On mac terminal go to the folder where `package.json` reside and run `npm install` to download all dependencies. You can read more about dependencies [here](https://docs.npmjs.com/specifying-dependencies-and-devdependencies-in-a-package-json-file)
 - On terminal go to folder where `wdio.conf.js` reside (which is same folder as `package.json`) and run below command
 - Command to run project is `./node_modules/.bin/wdio wdio.conf.js`
