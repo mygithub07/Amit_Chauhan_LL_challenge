@@ -6,6 +6,9 @@
 - Project is built using pageobjects and most of the parameters (firstname, lastname etc.) are configurable from feature file
 - Project is using wdio runner. You can find more info on wdio runner [here](https://webdriver.io/docs/clioptions.html)
 - Project starts selenium server from config , so we dont have to start manually.
+- location of feature file - /src/features/
+- location of cucumber steps - /src/steps
+- location of pageobjects - /src/support/pageobjects/
 
 ## Prerequisites
 - Node js should be available. You can Install `node.js` from [here](https://nodejs.org/en/download/)  . 
