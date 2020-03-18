@@ -14,6 +14,7 @@
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"`
 More about downloading and installing node and npm - https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 - Install java jdk -  https://www.oracle.com/java/technologies/javase-jdk14-downloads.html  . You can check jdk install by `java -version` . Jdk is required to run selenium server
+- Install chrome browser
 
 
 ## Running project
